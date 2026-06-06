@@ -1,1 +1,1 @@
-Make way for the king
+Make way for the king and queen
