@@ -1,0 +1,28 @@
+http://localhost:8080/api/vehicles/booking/customer/1
+
+[
+{
+"registrationNumber": "GA 01 GH 1234",
+"bookingDateTime": "2026-06-06T18:30:00",
+"serviceDesc": "Tyre pucture",
+"status": "SCHEDULED"
+},
+{
+"registrationNumber": "GA 01 GH 1234",
+"bookingDateTime": "2026-06-06T16:30:00",
+"serviceDesc": "Tyre repair",
+"status": "SCHEDULED"
+}
+]
+
+http://localhost:8080/api/vehicles/booking/service
+
+6
+
+http://localhost:8080/api/vehicles/booking/summary?bookingFromDate=2026-06-05&bookingToDate=2026-06-05
+[
+{
+"Status": "COMPLETED",
+"bookingCount": 1
+}
+]
